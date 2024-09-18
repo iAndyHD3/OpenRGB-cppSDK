@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.0)
 
 project(OpenRGB_cppSDK)
 
-include_directories(
+target_include_directories(OpenRGB_cppSDK PUBLIC
 	include
 	shared/CppUtils-Essential
 	shared/CppUtils-Network
